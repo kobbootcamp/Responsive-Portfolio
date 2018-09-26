@@ -181,3 +181,130 @@ input[type=submit], select {
     margin-left:20px;
 
 }
+
+
+@media screen and (max-width: 980px) {
+    header{
+        width:100%;
+        position: fixed;
+        margin: auto;
+        top: 0;
+        left: 0;
+        border-bottom-style: solid;
+        border-bottom-color: #cccccc;
+        background-color:#ffffff;
+        z-index:2;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        width:100%;
+        position: fixed;
+        margin: auto;
+        top: 0;
+        left: 0;
+        border-bottom-style: solid;
+        border-bottom-color: #cccccc;
+        background-color:#ffffff;
+        z-index:2;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header{
+        width:100%;
+        position: relative;
+        margin: auto;
+        top: 0;
+        left: 0;
+        border-bottom-style: solid;
+        border-bottom-color: #cccccc;
+        background-color:#ffffff;
+        z-index:2;
+    }
+
+    .buttonbox{
+        float: left;
+        Top: 0;
+        margin-right: 0;
+        background-color: #ffffff;
+        padding-left: 85px;
+        padding-right: 20px;
+        padding-top: 20px;
+        height: 48px;
+    
+    }
+
+    .namebox{
+        float: left;   
+        background-color: #4aaaa5;
+        width: 180px;  
+        color:white;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-size: 24px; 
+        padding: 20px;
+        margin: 0px 0px 0px -8px;
+    }
+
+    #headerwrapper {
+        width: 640px;
+        margin-left: auto;  
+        margin-right: auto; 
+        margin-bottom: 20px;
+    
+    }
+
+    .buttoncontainer {
+        float: left;
+        margin-left: 20px;
+        padding: 8px; 
+        width: 40px;
+        height: 10px;
+        border-right-style: solid;
+        border-right-color: #ffffff;
+        border-right-width:1px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+
+    .content{
+        color:#777777;
+        margin: 0 auto;
+        background-color: #ffffff;
+        width: 500px;
+        border-style: solid;
+        border-color: #cccccc;
+        border-width: 1px;
+        margin-top:50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        padding-right: 20px;
+        overflow:auto;
+    }
+#indexparagraph {
+    padding:20px;
+
+}
+
+#topgraylinecontainer{
+    position: relative;
+    margin: 0 auto;
+    top:0px;
+    Left: 0px;
+    Height: 3px;
+    width: 600px;
+
+}
+
+.pagetitle{
+    clear: both;
+    overflow: auto;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px; 
+    padding-top: 50px;
+    padding: 20px;
+    width: 600px;
+}
+
+}
