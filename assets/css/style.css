@@ -24,12 +24,6 @@ body{
     padding: 20px;
 }
 
-/*.headerwrapper {
-    width: 960px;
-    margin-left: auto;  
-    margin-right: auto; 
-
-}*/
 header{
     width:100%;
     position: fixed;
@@ -275,8 +269,6 @@ input[type=submit], select {
     width: 900px;
 }
 }
-}
-
 @media screen and (max-width: 768px) {
 
     .buttonbox{
@@ -450,4 +442,5 @@ input[type=submit], select {
     padding: 20px;
     width: 500px;
 }
+
 }
